@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio BALIGH Ghaouar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<header>
+    <div class="container nav-container">
+      <div class="logo">MY PORTFOLIO</div>
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+      </nav>
+    </div>
+  </header>
+  
+  <section class="hero" id="home">
+    <div class="container hero-content">
+      <img src="assets/profileimg(1).JPG" alt="Profile" class="profile-pic"/>
+      <div>
+        <p>Hello, I'm</p><br>
+        <h1>Baligh GHAOUAR</h1><br>
+        <h2>Full Stack Developer</h2><br>
+        <div class="btn-group">
+          <a href="assets/cv_baligh_ghaouar (1).pdf" class="btn" target="_blank">Download CV</a><br><br>
+          <a href="#contact" class="btn btn-outline">Contact</a><br><br>
+        </div>
+        <div class="socials">
+          <a href="https://linkedin.com/in/baligh-ghaouar-157990246/" target="_blank"><img src="assets/linkedin.png" alt="LinkedIn" /></a>
+          <a href="https://github.com/ghaouarBaligh" target="_blank"><img src="assets/github.png" alt="GitHub" /></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <img src="assets/myphoto.jpg" alt="About Picture"/>
+        <p>
+            Étudiant en ingénierie informatique spécialisé en ingénierie des données avec des compétences en Python, Java, SQL, et technologies comme Keras et TensorFlow. Expérience en développement mobile, science des données et intégration continue. Passionné par le traitement du langage naturel, l'apprentissage automatique, et l'analyse de données.
+        </p>
+      </div>
+    </div>
+  </section>
+  
+  <section id="experience" class="section">
+    <div class="container">
+      <h2>Experience</h2>
+      <div class="experience-grid">
+        <div class="experience-block">
+          <h3>Frontend</h3>
+          <ul>
+            <li>HTML – <span>Experienced</span></li>
+            <li>CSS / SASS – <span>Experienced</span></li>
+            <li>JavaScript – <span>Intermediate</span></li>
+          </ul>
+        </div>
+        <div class="experience-block">
+          <h3>Backend & Tools</h3>
+          <ul>
+            <li>Node.js / Express – <span>Intermediate</span></li>
+            <li>PostgreSQL – <span>Basic</span></li>
+            <li>Git – <span>Intermediate</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        
+        <div class="project-card">
+          <img src="assets/internshipproj.png" alt="Project One" />
+          <div class="project-info">
+            <h3>Project One</h3>
+            <p>Backend system built during internship using Node.js and PostgreSQL.</p>
+            <div class="btn-group">
+              <a href="https://github.com/ghaouarBaligh/Back-internship" class="btn" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="project-card">
+          <img src="assets/internshipproj.png" alt="Project Two" />
+          <div class="project-info">
+            <h3>Project Two</h3>
+            <p>Another example project with similar architecture and design principles.</p>
+            <div class="btn-group">
+              <a href="https://github.com/ghaouarBaligh/Back-internship" class="btn" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Ajoute plus de .project-card ici si besoin -->
+  
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Feel free to reach out for collaboration or questions 👇</p>
+      <div class="contact-info">
+        <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:ghaouarbaligh2020@gmail.com">ghaouarbaligh2020@gmail.com</a>
+          </div>
+          
+        <div class="contact-item">
+          <i class="fab fa-linkedin"></i>
+          <a href="https://www.linkedin.com/in/baligh-ghaouar-157990246/" target="_blank">
+            linkedin.com/in/baligh-ghaouar
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  <footer>
+    <div class="container footer-content">
+      <p>© 2025 Baligh GHAOUAR</p>
+      <div class="footer-links">
+        <a href="https://github.com/ghaouarBaligh" target="_blank">GitHub</a>
+        <a href="#home">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+  
+  
+
+</html>
